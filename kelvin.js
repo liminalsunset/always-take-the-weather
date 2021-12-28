@@ -8,3 +8,14 @@ const celsius = kelvin - 273;
 const fahrenheit = Math.floor(celsius * (9 / 5) + 32)
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// as an arrow function:
+
+
+// this returns fahrenheit calculation Fahrenheit
+
+/* const fahrenheit = () => {
+    return Math.floor(celsius * (9 / 5) + 32);
+};
+
+console.log(fahrenheit()); */
