@@ -1,6 +1,6 @@
 //this function will take in two arguments, string and num
 const repeatString = function(word, num) {
-    // returns error with negative numbers
+    // returns error with negative numbers 
     if (num < 0) {
         return 'ERROR';
     } else {
