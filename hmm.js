@@ -1,9 +1,9 @@
 const sumAll = function(num1, num2) {
-    let sum = num1;
-    for (let i = 0; i < num2; i++) {
+    let sum = 0;
+    for (let i = num1; i < num2; i++) {
         sum += i;
-        return sum;
     }
+    return sum;
 };
 
 console.log(sumAll(1, 4));
