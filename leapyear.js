@@ -1,8 +1,11 @@
 const leapYears = function(num) {
-    if (num > 0 && num / 4) {
-        return 'But is it divisible by 100?';
+    if ((num > 0) && (num / 4) && (num % 100 !== 0)) {
+        return 'It might be a leap year.';
+    } else {
+        return 'Probably not a leap year.';
     }
 };
 
 
 console.log(leapYears(1984));
+console.log(leapYears(1900));
