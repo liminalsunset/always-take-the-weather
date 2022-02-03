@@ -18,3 +18,5 @@ const palindromes = function(palindrome) {
 
 console.log(palindromes('hello'));
 console.log(palindromes('racecar'));
+// hrm how to best make it work with spaces? 
+console.log(palindromes('Lid off a daffodil'));
