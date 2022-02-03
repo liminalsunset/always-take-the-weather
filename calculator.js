@@ -7,11 +7,12 @@ const subtract = function(num1, num2) {
 };
   
 const sum = function(arr) {
-    let sumOfArray = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sumOfArray += arr[i];
-    }
-    return sumOfArray;
+    // let sumOfArray = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     sumOfArray += arr[i];
+    // }
+    // return sumOfArray;
+    return arr.reduce((total, current) => total + current, 0)
 };
   
 const multiply = function(arr) {
@@ -25,7 +26,8 @@ const multiply = function(arr) {
 };
   
 const power = function(num1, num2) {
-    return num1 ** num2;
+    // return num1 ** num2;
+    return Math.pow(num1, num2);
 };
   
 const factorial = function(num) {
@@ -39,7 +41,7 @@ const factorial = function(num) {
 
 console.log(add(1, 2));
 console.log(subtract(2, 1));
-console.log(sum(1, 1));
+console.log(sum([1, 1]));
 console.log(multiply([3, 3]));
 console.log(power(1, 2));
 console.log(factorial(5));
