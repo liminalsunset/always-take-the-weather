@@ -31,5 +31,5 @@ const getAge = function(birth, death){
     return death - birth;
 };
 
-console.log(findTheOldest((people).name));
-console.log((people).name);
+// 
+console.log(people);
