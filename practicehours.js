@@ -3,6 +3,7 @@ const practiceHours = function(arr) {
     let totalMinutes = arr.reduce((total, current) => total + current, 0);
     // returns total number of hours practiced, rounded down to the completed hour
     let totalHours = Math.floor(totalMinutes / 60);
+    // tells you something useful yay ^^
     console.log(`You currently have ${totalHours} practice hours!`);
 };
 
