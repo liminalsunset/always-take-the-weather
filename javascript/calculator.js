@@ -12,7 +12,7 @@ const sum = function(arr) {
     //     sumOfArray += arr[i];
     // }
     // return sumOfArray;
-    return arr.reduce((total, current) => total + current, 0)
+    return arr.reduce((total, current) => total + current, 0);
 };
   
 const multiply = function(arr) {
