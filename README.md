@@ -1,3 +1,3 @@
 # always-take-the-weather
 
-random exercise/challenge/project testing ground
+random exercise/project testing playground
