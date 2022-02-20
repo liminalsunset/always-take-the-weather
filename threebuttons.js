@@ -8,6 +8,11 @@ btn2.addEventListener('click', () => {
     alert('Hello World!');
 });
 
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', (e) => {
+    console.log(e.target);
+});
+
 const content = document.createElement('div');
 
 content.classList.add('content');
