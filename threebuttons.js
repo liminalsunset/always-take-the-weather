@@ -11,6 +11,7 @@ btn2.addEventListener('click', () => {
 const btn3 = document.querySelector('#btn3');
 btn3.addEventListener('click', (e) => {
     console.log(e.target);
+    e.target.style.background = 'purple';
 });
 
 const content = document.createElement('div');
