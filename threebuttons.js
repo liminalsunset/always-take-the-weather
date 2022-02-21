@@ -14,6 +14,14 @@ btn3.addEventListener('click', (e) => {
     e.target.style.background = 'purple';
 });
 
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        alert(button.id);
+    });
+});
+de
 const content = document.createElement('div');
 
 content.classList.add('content');
